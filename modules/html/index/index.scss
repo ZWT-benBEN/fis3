@@ -1,0 +1,12 @@
+#content{
+    width: 100%;
+    height: 200px;
+    background: blanchedalmond;
+    line-height: 200px;
+    text-align: center;
+    font-size: 40px;
+    cursor: pointer;
+    &.move{
+        transform: translateX(100px);
+    }
+}
